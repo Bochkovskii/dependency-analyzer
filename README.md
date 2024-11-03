@@ -1,7 +1,7 @@
 # dependency-analyzer
 Project for determining, whether it is possible 
 to run a class with a classpath, formed
-from a list of jar files.
+from a list of jar files. Developed using ASM java bytecode analysis framework.
 
 ## Usage:
 1) clone the repository
