@@ -1,7 +1,6 @@
 plugins {
     id("java")
     id("application")
-    id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
 version = "1.0"
@@ -20,9 +19,4 @@ application {
     mainClass.set("DependencyAnalyzer")
 }
 
-tasks.jar {
-    manifest {
-        attributes["Main-Class"] = "DependencyAnalyzer"
-    }
-}
 
