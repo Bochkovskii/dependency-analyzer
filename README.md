@@ -10,4 +10,4 @@ from a list of jar files.
 3) executable .jar will appear at 
 build/libs/dependency-analyzer-1.0-all.jar
 4) run with
-```java -jar build/libs/dependency-analyzer-1.0-all.jar```
+```./gradlew run --args="com.example.Class path1/file.jar path2/file.jar ..."```
